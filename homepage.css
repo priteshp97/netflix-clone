@@ -17,8 +17,20 @@ body {
   margin: 0 auto;
 }
 
+.navt {
+  position: fixed;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 .navbar {
-  background-color: hsl(0, 0%, 4%) !important;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 10%,
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .nav-link {
@@ -63,6 +75,61 @@ body {
 
 .navbar-toggler {
   background-color: hsl(0, 0%, 100%) !important;
+}
+
+/* banner */
+
+.banner {
+  background: url(./assets/media/squid-game.jpg) center/cover no-repeat;
+  color: white;
+  height: 39rem;
+}
+
+.banner-info {
+  margin-left: 2rem;
+  padding-top: 10rem;
+  height: 10rem;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.banner-description {
+  line-height: 1.4;
+  margin-top: 1rem;
+  font-size: 1rem;
+  max-width: 20rem;
+}
+
+.banner-btn {
+  color: white;
+  cursor: pointer;
+  border: transparent;
+  font-weight: 700;
+  border-radius: 0.2rem;
+  padding: 0.5rem 2rem;
+  margin-right: 1rem;
+  background-color: hsl(0, 0%, 35%);
+  transition: 0.3s ease-in-out;
+}
+
+.banner-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.banner-fade {
+  margin-top: 23.5rem;
+  height: 10rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    black
+  );
 }
 
 .header-title {
