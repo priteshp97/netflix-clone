@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: hsl(0, 0%, 7%);
+  color: hsl(0, 0%, 90%);
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: hsl(0, 0%, 4%) !important;
+}
+
+.nav-link {
+  color: hsl(180, 21%, 87%) !important;
+}
+
+.nav-logo-img {
+  width: 7rem;
+  height: 3.25rem;
+}
+
+.fa-search {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.25rem;
+}
+
+.fa-bell {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.25rem;
+}
+
+.nav-avatar {
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav-link-active {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.5px;
+}
+
+.fa-caret-down {
+  color: hsl(0, 0%, 100%);
+  margin-left: 0.5rem;
+}
+
+.navbar-toggler {
+  background-color: hsl(0, 0%, 100%) !important;
+}
+
+.header-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  margin-left: 2.5rem;
+}
+
+.header-icons {
+  color: hsl(0, 0%, 90%);
+  padding: 0.5rem;
+}
+
+.icons-border {
+  border: 1px solid #6c757d;
+  margin-right: 0.05rem;
+}
